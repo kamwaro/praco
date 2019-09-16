@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Cheat Sheet</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+ 
+</head>
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary"><a href="#" class="navbar-brand">CompanyName</a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    </div>
+    <!--  Typography  -->
+    <div class="container">
+        <h1 class="card-title"> Hello, world! <small>Ole Pusha Here</small></h1>
+        <hr>
+        <p class="lead
+        ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, animi.</p>
+        <p><mark>Lorem ipsum</mark> dolor sit amet <del>consectetur</del>>, adipisicing elit. <u>Minus</u>, harum?</p>
+
+        <hr>
+
+        <!-- ALIGNMENT and TRANSFORMATION-->
+        <p class="text-left text-lowercase">Left aligned text.</p>
+        <p class="text-center text-uppercase">Center aligned text.</p>
+        <p class="text-justify text-capitalize">Justified text.</p>
+        <p class="text-nowrap">No wrap text.</p>
+
+        <!-- QUICK FLOATS-->
+        <div class="pull-right">Div floated to right</div>
+        <div class="pull-left">Div floated to left</div>
+        <!-- Clear float -->
+        <div class="clearfix"></div>
+
+        <hr>
+
+        <!-- BLOCKQUOTE -->
+        <blockquote class="blockquote">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, corrupti!</p>
+        </blockquote>
+
+        <hr>
+
+        <!-- LISTS -->
+        <ul class="list-unstyled">
+            <li>list one</li>
+            <li>list two</li>
+            <li>list three</li>
+            <li>list four</li>
+        </ul>
+
+        <ul class="list-inline">
+                <li>list one</li>
+                <li>list two</li>
+                <li>list three</li>
+                <li>list four</li>
+        </ul>
+
+        <!-- CODE -->
+        <code>&lt;h1&gt; Heading text &lt;/h1&gt;</code> 
+        <br>
+        Change the directory with <kbd>cd</kbd>
+        <br>
+        To edit settings, press <kbd><kbd>ctrl</kbd>+<kbd>,</kbd></kbd>
+
+        <hr>
+
+        <!-- Contextual Colors -->
+        <p class="text-primary">Hello World</p>
+        <p class="text-success">Hello World</p>
+        <p class="text-info">Hello World</p>
+        <p class="text-warning">Hello World</p>
+        <p class="text-danger">Hello World</p>
+        <p class="text-muted">Hello World</p>
+    
+
+    
+
+        <!-- Contextual Colors -->
+        <p class="bg-primary">Hello World</p>
+        <p class="bg-success">Hello World</p>
+        <p class="bg-info">Hello World</p>
+        <p class="bg-warning">Hello World</p>
+        <p class="bg-danger">Hello World</p>
+        <p class="bg-muted">Hello World</p>
+
+        <!-- Buttons -->
+        <div class="container">
+            <button class="btn btn-default">Default</button>
+            <a href="#" class="btn btn-default" role="button">Link</a>
+            <input type="submit" class="btn btn-default" value="submit">
+            <br>
+
+            <!-- CONTEXTUAL BUTTONS -->
+            <button class="btn btn-default">Default</button>
+            <button class="btn btn-primary">Primary</button>
+            <button class="btn btn-success">Success</button>
+            <button class="btn btn-info">Info</button>
+            <button class="btn btn-warning">Warning</button>
+            <button class="btn btn-danger">Delete</button>
+            <button class="btn btn-link">Link</button>
+            <br>
+
+            <!-- BUTTON SIZES -->
+            <button class="btn btn-default">Default</button>
+            <button class="btn btn-default">Default</button>
+            <button class="btn btn-primary btn-sm">Default</button>
+            <button class="btn btn-default btn-xs" disabled="disabled">Default</button>
+        </div>
+
+        <!-- FORMS -->
+        <div class="container">
+            <form action="">
+                <div class="form-group">
+                    <label for="
+                    ">Name</label>
+                    <input type="text" class="form-control" placeholder="Add Name"> 
+                </div>
+
+                <div class="form-group">
+                    <label for="
+                    ">Email</label>
+                    <input type="email" class="form-control" placeholder="Add Email">
+                </div>
+
+                <div class="form-group">
+                    <label for="
+                    ">Message</label>
+                    <textarea class="form-control" placeholder="Add Message"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Gender</label>
+                    <select name="" id="" class="form-control">
+                        <option value="male">Male</option>
+                        <option value="male">Female</option>
+                        <option value="male">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Upload File</label>
+                    <input type="file">
+                    <p class="help-block">Only png and jpg allowed</p>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" >Check me out
+                    </label>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <table class="table table-striped">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+            <tr class="danger">
+                <th>Jackie</th>
+                <th>Njeri</th>
+                <th>55</th>
+            </tr>
+            <tr class="danger">
+                <th>Eve</th>
+                <th>D'Souzza</th>
+                <th>85</th>
+            </tr>
+            <tr class="danger">
+                <th>Ole</th>
+                <th>Pusha</th>
+                <th>24</th>
+            </tr>
+            <tr class="danger">
+                <th>Albert</th>
+                <th>Einstein</th>
+                <th>44</th>
+            </tr>
+        </table>
+    </div>
+
+    <hr>
+
+    <!-- List Group -->
+    <div class="container">
+        <ul class="list-group">
+            <li class="list-group-item">Item One</li>
+            <li class="list-group-item">Item Two</li>
+            <li class="list-group-item">Item Three</li>
+            <li class="list-group-item">Item Four</li>
+        </ul>
+
+        <div class="list-group">
+            <a href="#" class="list-group-item active">Item One</a>
+            <a href="#" class="list-group-item active">Item Two</a>
+            <a href="#" class="list-group-item active">Item Three</a>
+            <a href="#" class="list-group-item active">Item Four</a>
+        </div>
+
+        <div class="container">
+            <!-- PANELS -->
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Panel title
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    Panel Content
+                </div>
+                <div class="panel-footer">Panel Footer</div>
+            </div>
+
+            <hr>
+
+            <!-- WELLS -->
+            <div class="well">Hello World</div>
+            <div class="well well-lg">Hello World</div>
+            <div class="well well-sm">Hello World</div>
+
+            <hr>
+
+            <!-- ALERTS -->
+            <div class="alert alert-success" role="alert">A success alert</div>
+            <div class="alert alert-info" role="alert">An info alert</div>
+            <div class="alert alert-warning" role="alert">A warning alert</div>
+            <div class="alert alert-danger" role="alert">A danger alert</div>
+
+            <div class="alert alert-warning alert-dismissable" role="alert">
+                <button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>You can close this alert
+            </div>
+
+            <!-- PROGRESS BARS -->
+            <div class="progress">
+                <div class="progress-bar progress-bar-success progress-bar-striped active " style="width:50%">50%</div>
+            </div>
+
+            <hr>
+
+            <!-- LABELS -->
+            <span class="label label-default">Default</span>
+            <h1>Hello<span class="label label-primary">Primary</span></h1>
+            <span class="label label-success">Success</span>
+            <span class="label label-info">Info</span>
+            <span class="label label-warning">Warning</span>
+            <span class="label label-danger">Danger</span>
+
+            <!-- BADGES -->
+            <a href="#">Inbox <span class="badge">50</span></a>
+
+            <button class="btn btn-primary" type="button">Messages <span class="badge">2</span></button>
+        </div>
+    </div>
+    <br>
+
+    <!-- Images -->
+
+    <div class="container">
+        <img class="thumbnail" src="../images/0.jpeg" alt="" >
+        <img class="img-rounded" src="../images/0.jpeg" alt="" >
+        <img class="img-circle" src="../images/0.jpeg" alt="" >
+    </div>
+
+    <br>
+
+
+    <!-- GRIDS-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, libero?</p>
+            </div>
+            <div class="col md 4">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, nisi.</p>
+            </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, libero?</p>
+            </div>
+            <div class="col md 3">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, nisi.</p>
+            </div>
+            <div class="col md 3">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, nisi.</p>
+            </div>
+            <div class="col md 3">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, nisi.</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div style="height:400px"></div>
+  
+    
+    
+</body>
+</html>

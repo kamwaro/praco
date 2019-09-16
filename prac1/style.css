@@ -1,0 +1,48 @@
+/**{
+    margin:0;
+    padding:0;
+}
+*/
+
+ul{
+    list-style: none;
+    padding: 0;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: red;
+}
+
+.head{
+    border-bottom: 3px red solid;
+}
+.head li {
+    float: left;
+    display: inline;
+    box-sizing: border-box;
+    padding: 0px 3px;
+}
+
+body{
+    font: 16p/1.5 Arial,Helvetica,Sans-serif;
+    margin: auto;
+    background-color: rgb(68, 68, 68);
+    color:#ffffff;
+
+}
+
+.container{
+    width:80%;
+    margin: auto;
+}
+

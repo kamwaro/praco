@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="universal">
+        <h2><span>*</span>Universal</h2>
+        <hr>
+        <p>This selects EVERYTHING.Every single thing</p>
+        <ul>
+            <li>Every</li>
+            <li>Single</li>
+            <li>Thing</li>
+            <li><a href="#">Everything</a></li>
+        </ul>
+    </section>
+
+    <section class="direct-children">
+        <h2><span>></span>Direct children</h2>
+        <hr>
+        <p>You can create selectors like this:</p>
+        <code>,direct-children p</code>
+        <p>That will select all paragraphs inside of .direct-children</p>
+        <div class="example">
+            <p>But <code>.direct-child > p</code> will not</p>
+        </div>
+    </section>
+
+    <section class="adjacent-sibling">
+        <h2> <span>+</span>Adjacent sibling</h2>
+        <hr>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </section>
+
+    <section class="general-sibling">
+        <h2><span>~</span>General sibling</h2>
+        <hr>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </section>
+
+    
+</body>
+</html>

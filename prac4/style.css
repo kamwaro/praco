@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #fff;
+
+    line-height: 1.6em;
+    margin:0;
+}
+
+#header{
+    background-color: orangered;
+    padding: 5px;
+    height:10vh;
+}
+
+#header h1{
+    padding-left: 30px;
+}
+
+#navbar{
+    background-color: dimgrey;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    height: 5vh;
+    
+}
+
+#nav{}
+
+#navbar ul{
+    list-style: none;
+    display: inline;   
+}
+
+#navbar li{
+    padding:10px;
+    float:left;
+    font-family: 'Segoe UI', Tahoma;
+    /*text-decoration: none;*/
+    
+
+}
+
+#navbar a{
+    color:#fff;
+    text-decoration: none;
+
+}
+
+.container{
+    margin: auto;
+    width:100%;
+    overflow: hidden ;
+}
+
+#showcase{
+    background-image: url('../images/download (3).jpg');
+    font-weight: bolder;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+
+#main{
+    color: black;
+    box-sizing: border-box;
+    float:left;
+    text-align: center;
+    width: 70%;
+    position:absolute;
+}
+
+#sidebar{
+    box-sizing: border-box;
+    float: right;
+    color:white;
+    background-color: black;
+    width:30%;
+    position:relative;
+    margin:0 0 30px;
+    bottom:0px;
+
+}
+
+#footer{
+    color: black;
+    width: 100%;
+    clear:both;
+    position:fixed;
+    bottom:0;
+    left:50%;
+    right:50%;
+}
+

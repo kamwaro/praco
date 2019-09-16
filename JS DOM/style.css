@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+body{
+    background:#f3f3f3;
+    font-family:  sans-serif;
+    color: black;
+    font-size: 1.2rem;
+
+    
+}
+
+button{
+    background-color: #333;
+    color:#fff;
+    border-radius: 2em;
+}
+
+header{
+    background-color: rgb(138, 189, 88);
+    width:100%;
+    font-size: 2rem;
+
+}
+
+header h3{
+    color:#fff;
+}
+
+header div{
+    padding:30px 70px;
+}
+
+section{
+    margin:auto;
+    border: 2px solid rgb(34, 33, 33);
+    text-align: center;
+    width:50%;
+}
+
+section #form-1{
+    position: relative;
+    right:10%;
+}
+
+section #form-1 h3{
+    padding:0;
+    margin: 0;
+}
+
+section #items-list h3 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+section #items-list ol{
+    list-style: none;
+}

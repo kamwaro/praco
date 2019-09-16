@@ -1,0 +1,399 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+body{
+    /* background-image: url("../images/nairobi1.jpg"); */
+    color: #fff;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 100;
+    height: 90vh;
+   
+    
+}
+video{
+    object-fit: cover;
+    width: 100vw;
+   
+}
+
+
+section{
+    height: 100vh;
+    background: #000;
+}
+
+section:before{
+    content:'';
+    position:absolute;
+    top:30px;
+    left:0;
+    width:100%;
+    height:100%;
+   /* background: linear-gradient(to right, #f00, #f00, #0f0, #0ff,#ff0,#0ff); */
+    mix-blend-mode: color;
+    pointer-events: none; 
+
+}
+
+section h1{
+    margin:0;
+    padding:0;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color:#ddd;
+    font-size:50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 8px;
+    position: absolute;
+    top: 55%;
+    z-index: 1;
+
+    
+}
+
+section h1 span{
+    display:inline-block;
+    animation: animate 1s linear forwards;
+}
+
+header #header{
+    float:left;
+    
+}
+
+    
+
+header #navbar ul{
+    list-style: none;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+
+}
+
+header #navbar-0 ul{
+    list-style: none;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+
+}
+
+
+header #navbar ul li{
+    display: inline;
+
+}
+
+header #navbar-0 ul li{
+    display: inline;
+
+}
+
+
+header #navbar ul li a {
+
+    text-decoration: none;
+    color: rgb(42, 42, 53);
+    transition-property: background-color, transform;
+    transition-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+header #navbar-0 ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition-property: background-color, transform;
+    transition-duration: .2++s;
+    animation-fill-mode: forwards;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+
+
+
+a:hover, a:focus {
+    background-color: aqua;
+    border-radius: 1em;
+    color: #fff;
+    cursor: pointer;
+    border-bottom: #333 2px outset;
+    transform: rotateY(180deg);
+    
+}
+
+#showcase-heading{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    animation-name: myanimation;
+    animation-duration: 4s;
+    width: fit-content;
+    position: relative;
+    left: 25%;
+    right:75%;
+    border-radius: 2.7em;  
+}
+
+
+#showcase-heading #smile{
+    transform: rotateY(90deg);
+    color: rgba(52, 52, 107, 0.603);
+    font-size: 3em;
+
+
+}
+#showcase img{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-position: center;
+    width: 100vw;
+    background-size: cover;
+
+
+}
+
+.container #contacts {
+    margin: auto;
+    position: relative;
+    top:150px;
+}
+
+.container #services {
+    position: relative;
+    top: 150px;
+}
+
+.container #services img{
+    position: absolute;
+    top: 0;
+    z-index: ;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+
+
+}
+
+
+.container #heading-1{
+    text-align: center;
+    animation: slideanimation2;
+    animation-duration:2s;
+    animation-fill-mode: forwards;
+    position: relative;
+    top:150px;
+}
+
+.container #contacts{
+
+    text-align: center;
+    line-height: 3.2rem;
+    animation: slideanimation3;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+}
+
+.container #services {
+    text-align: center;
+    animation:slideanimation;
+    animation-duration:2s;
+    animation-fill-mode: forwards;
+
+    
+}
+
+.container #services ol {
+    list-style: none;
+}
+
+.container #services ol li{
+    line-height: 50px;
+}
+
+
+.container-1 #services p{
+    color:#fff;
+
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    border-bottom-style: double;
+    border-bottom-color: aqua;
+    border-bottom-width: 48%;
+    
+}
+
+.container-1 #services ol{
+    margin: auto;
+    text-align: center;
+    list-style: lower-roman;
+    line-height: 3.2rem;
+    animation: listanimation;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.container-1 #services ol li{
+    list-style: lower-roman;
+}
+
+.container-1 #services{
+    animation: listanimation;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.container #contacts-twitter a{
+    color:rgb(42, 42, 53);
+    text-decoration: none;
+}
+
+.container #contacts-insta a{
+    color:rgb(42, 42, 53);
+    text-decoration: none;
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left:35%;
+    right:65%;
+    width:500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation:footeranimation;
+    animation-duration:3s;
+    animation-fill-mode: forwards;
+
+}
+
+
+
+@keyframes animate{
+    0% {opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    100% {opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0);
+    }
+    
+
+}
+
+section h1 span:nth-child(1) {
+    animation-delay: 0s;
+}
+section h1 span:nth-child(2) {
+    animation-delay: 0.5s;
+}
+section h1 span:nth-child(3) {
+    animation-delay: 1s;
+}
+section h1 span:nth-child(4) {
+    animation-delay: 1.5s;
+}
+section h1 span:nth-child(5) {
+    animation-delay: 1.7s;
+}
+section h1 span:nth-child(7) {
+    animation-delay: 1.9s;
+}
+section h1 span:nth-child(8) {
+    animation-delay: 2.2s;
+}
+section h1 span:nth-child(9) {
+    animation-delay: 2.4s;
+}
+section h1 span:nth-child(10) {
+    animation-delay: 2.8s;
+}
+section h1 span:nth-child(11) {
+    animation-delay: 3.0s;
+}
+section h1 span:nth-child(12) {
+    animation-delay: 3.2s;
+}
+section h1 span:nth-child(13) {
+    animation-delay: 3.5s;
+}
+
+
+
+
+@keyframes footeranimation{
+    0% {opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    100% {opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0);
+    }
+}
+
+
+    @keyframes slideanimation{
+        0% {opacity: 0;
+            transform: translateX(-500px);
+            filter: blur(10px);
+        }
+        100% {opacity: 1;
+           
+            filter: blur(0);
+        }
+        
+    
+    }
+
+    
+    @keyframes slideanimation2{
+        0% {opacity: 0;
+            transform: translateX(-500px);
+            filter: blur(10px);
+        }
+        100% {opacity: 1;
+           
+            filter: blur(0);
+        }
+        
+    
+    }
+
+    
+    @keyframes slideanimation3{
+        0% {opacity: 0;
+            transform: translateX(-500px);
+            filter: blur(10px);
+        }
+        100% {opacity: 1;
+           
+            filter: blur(0);
+        }
+        
+    
+    }
+
+
+
